@@ -1,0 +1,10 @@
+.main-content {
+  display: block;
+  padding: 2rem;
+  min-height: 60vh;
+}
+
+.main-content-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
