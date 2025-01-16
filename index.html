@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Components Demo</title>
-    <script src="js/component-loader.js" type="module"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <script src="/js/component-loader.js" type="module"></script>
   </head>
   <body>
     <app-header></app-header>
-
-    <main-content></main-content>
-
+    <main class="container">
+      <main-content></main-content>
+    </main>
     <app-footer></app-footer>
   </body>
 </html>

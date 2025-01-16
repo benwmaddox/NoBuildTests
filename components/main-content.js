@@ -4,8 +4,24 @@ class MainContent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* Html */ `
       <div class="main-content-inner">
-        <h2>Welcome to the Demo</h2>
-        <p>This page demonstrates the use of Web Components with automatic loading.</p>
+        <hgroup>
+          <h2>Welcome to the Demo</h2>
+          <h3>A showcase of Web Components with Pico CSS</h3>
+        </hgroup>
+        
+        <article>
+          <p>This page demonstrates the use of Web Components with automatic loading and Pico CSS for beautiful styling.</p>
+          
+          <details>
+            <summary>Features</summary>
+            <ul>
+              <li>Automatic component loading</li>
+              <li>CSS per component</li>
+              <li>Beautiful Pico CSS styling</li>
+              <li>Semantic HTML structure</li>
+            </ul>
+          </details>
+        </article>
       </div>
     `;
   }
