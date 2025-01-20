@@ -1,46 +1,48 @@
-random-picker article {
-  max-width: var(--size-lg);
-  margin: 0 auto;
-  padding: var(--spacing);
-}
+random-picker {
+  article {
+    max-width: var(--size-lg);
+    margin: 0 auto;
+    padding: var(--spacing);
+  }
 
-random-picker .results {
-  margin-top: var(--spacing);
-  text-align: center;
-}
+  .results {
+    margin-top: var(--spacing);
+    text-align: center;
+  }
 
-random-picker .drum {
-  font-size: 2rem;
-  color: var(--primary);
-  margin: var(--spacing) 0;
-  padding: var(--spacing);
-  border-radius: var(--border-radius);
-  background: var(--card-background-color);
-  border: 1px solid var(--card-border-color);
-  display: inline-block;
-  min-width: 300px;
-}
+  .drum {
+    font-size: 2rem;
+    color: var(--primary);
+    margin: var(--spacing) 0;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    background: var(--card-background-color);
+    border: 1px solid var(--card-border-color);
+    display: inline-block;
+    min-width: 300px;
+  }
 
-random-picker .winner {
-  opacity: 0;
-  animation: popIn 0.5s ease-out forwards;
-}
+  .winner {
+    opacity: 0;
+    animation: popIn 0.5s ease-out forwards;
 
-random-picker .winner h3 {
-  color: var(--primary);
-  margin-bottom: var(--spacing);
-}
+    h3 {
+      color: var(--primary);
+      margin-bottom: var(--spacing);
+    }
+  }
 
-random-picker .winner-name {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: var(--primary);
-  background: var(--card-background-color);
-  padding: var(--spacing);
-  border-radius: var(--border-radius);
-  border: 2px solid var(--primary);
-  display: inline-block;
-  min-width: 300px;
+  .winner-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    background: var(--card-background-color);
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--primary);
+    display: inline-block;
+    min-width: 300px;
+  }
 }
 
 @keyframes pulse {
