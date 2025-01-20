@@ -4,7 +4,9 @@ class AppHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* Html */ `
             <header>
-                <h1>My Web Components Demo</h1>
+                <div class="container">
+                    <h1>My Web Components Demo</h1>
+                </div>
             </header>
         `;
   }

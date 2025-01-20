@@ -6,7 +6,8 @@ class MainContent extends HTMLElement {
       <div class="main-content-inner">
         <hgroup>
           <h2>Welcome to the Demo</h2>
-          <h3>A showcase of Web Components with Pico CSS</h3>
+          <h3>A showcase of Web Components with Pico CSS. Enjoy.
+    </h3>
         </hgroup>
         
         <article>

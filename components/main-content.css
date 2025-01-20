@@ -1,10 +1,42 @@
-main-content {
+/*main-content {
   padding: 2rem 0;
   min-height: 60vh;
 
   .main-content-inner {
     h2 {
       color: var(--primary);
+    }
+  }
+}
+*/
+
+main-content {
+  display: block;
+  padding: var(--spacing);
+  min-height: 60vh;
+
+  .main-content-inner {
+    max-width: var(--size-lg);
+    margin: 0 auto;
+
+    /* Adjust spacing for Pico's container */
+    padding: 0 var(--spacing);
+
+    /* Style adjustments for Pico's defaults */
+    article {
+      margin-bottom: var(--spacing);
+    }
+
+    /* Use Pico's variables for consistent theming */
+    h1,
+    h2,
+    h3 {
+      color: var(--h1-color);
+    }
+
+    /* Adjust grid if you're using one */
+    .grid {
+      margin-top: var(--spacing);
     }
   }
 }
