@@ -13,6 +13,7 @@ class AppHeader extends HTMLElement {
                             <li><a href="./groups.html">Groups</a></li>
                             <li><a href="./pairs.html">Pairs</a></li>
                             <li><a href="./picker.html">Picker</a></li>
+                            <li><a href="./numbers.html">Numbers</a></li>
                         </ul>
                     </nav>
                 </div>
